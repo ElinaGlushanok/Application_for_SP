@@ -1,7 +1,7 @@
 import sqlite3
 
 
-con = sqlite3.connect('Accounting.sqlite')
+con = sqlite3.connect('Data/Accounting.sqlite')
 cur = con.cursor()
 
 def check_password(password):

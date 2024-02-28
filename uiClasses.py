@@ -5,7 +5,7 @@ from Checking import check_password, check_name, check_email
 from PyQt5 import uic
 from PyQt5.QtWidgets import QMainWindow, QTableWidgetItem, QMessageBox
 
-con = sqlite3.connect('Accounting.sqlite')
+con = sqlite3.connect('Data/Accounting.sqlite')
 cur = con.cursor()
 
 # Класс окна регистрации
