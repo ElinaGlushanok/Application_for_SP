@@ -12,7 +12,7 @@ cur = con.cursor()
 class Registrate(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('Register.ui', self)
+        uic.loadUi('UI/Register.ui', self)
         self.setWindowTitle("Регистрация")
         self.RegistrateButton.clicked.connect(self.new_account)
         self.exitButton.setStyleSheet("background-color : blue")
@@ -67,7 +67,7 @@ class Registrate(QMainWindow):
 class Enter(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('Enter.ui', self)
+        uic.loadUi('UI/Enter.ui', self)
         self.setWindowTitle("Вход")
         self.EnterButton.clicked.connect(self.enter)
         self.RegisterButton.clicked.connect(self.register)
@@ -106,7 +106,7 @@ class Enter(QMainWindow):
 class Update(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('UpdatePassword.ui', self)
+        uic.loadUi('UI/UpdatePassword.ui', self)
         self.setWindowTitle("Сброс пароля")
         self.MakeNewPassword.clicked.connect(self.set_new_password)
         self.exitButton.setStyleSheet("background-color : blue")
@@ -157,7 +157,7 @@ class Update(QMainWindow):
 class PersonalAccount(QMainWindow):
     def __init__(self, company):
         super().__init__()
-        uic.loadUi('Work_table.ui', self)
+        uic.loadUi('UI/Work_table.ui', self)
         self.exitButton.setStyleSheet("background-color : blue")
         self.setWindowTitle('Личный кабинет')
         self.company = company
