@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>331</width>
-    <height>324</height>
+    <width>330</width>
+    <height>341</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
       <x>20</x>
       <y>10</y>
       <width>291</width>
-      <height>251</height>
+      <height>281</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -46,7 +46,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Название компании</string>
+        <string>Наименование ИП</string>
        </property>
       </widget>
      </item>
@@ -71,10 +71,10 @@
      </item>
      <item>
       <layout class="QFormLayout" name="formLayout">
-       <item row="1" column="0">
-        <widget class="QPushButton" name="ForgotButton">
+       <item row="2" column="1">
+        <widget class="QPushButton" name="RegisterButton">
          <property name="text">
-          <string>Забыл пароль</string>
+          <string>Зарегистрироваться</string>
          </property>
         </widget>
        </item>
@@ -85,10 +85,10 @@
          </property>
         </widget>
        </item>
-       <item row="2" column="0" colspan="2">
-        <widget class="QPushButton" name="RegisterButton">
+       <item row="3" column="1">
+        <widget class="QPushButton" name="ForgotButton">
          <property name="text">
-          <string>Зарегистрироваться</string>
+          <string>Забыл пароль</string>
          </property>
         </widget>
        </item>
@@ -102,7 +102,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>331</width>
+     <width>330</width>
      <height>26</height>
     </rect>
    </property>

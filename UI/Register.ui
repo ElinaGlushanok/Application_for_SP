@@ -46,7 +46,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Введите название компании</string>
+        <string>Введите наименование ИП</string>
        </property>
       </widget>
      </item>
